@@ -54,7 +54,7 @@
             <td><?php echo $row['deskripsi'] ?></td>
             <td>
 
-                <a href="admin.php?page=edit-sampah&id=<?php echo $row['id']; ?>">
+                <a href="admin.php?page=edit-sampah&jenis_sampah=<?php echo $row['jenis_sampah']; ?>">
                 <button><i class="fa fa-pencil"></i>edit</button> 
                 </a>
                 

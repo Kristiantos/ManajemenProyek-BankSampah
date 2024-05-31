@@ -52,7 +52,7 @@ include '../system/config/koneksi.php';
 				echo "
 				<script>
 					alert('Selamat Anda berhasil login!');
-					document.location.href ='admin.php';
+					document.location.href ='admin.php?page=data-report';
 				</script>
 				";
 				}

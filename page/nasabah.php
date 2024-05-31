@@ -54,10 +54,8 @@ include_once("../system/config/koneksi.php");
 
 			</ul>
 		</div>
-
 		<div class="box-1">
 			<section>
-	
 				<?php 
 					if(isset($_GET['page'])){
 						$page = $_GET['page'];
